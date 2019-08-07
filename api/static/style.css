@@ -1,0 +1,32 @@
+span{
+    display: block;
+    margin: 0;
+    border: 1px;
+    text-align: center;
+    font-size: 20px;
+}
+input[type=number] {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    padding:5px;
+    text-align: center;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 8px;
+}
+.button{
+    text-align: center;
+    display: block;
+    background: #5549eb;
+    border-radius: 16px;
+    padding: 8px;
+    margin: 0 auto;
+    width: 120px;
+    cursor: pointer;
+}
+
+label{
+    margin-left: 55px;
+    margin-right: 55px;
+}
