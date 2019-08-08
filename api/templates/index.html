@@ -8,10 +8,9 @@
 <body>
     <h4 style="text-align: center; font-size: 30px">Temperature API</h4>
     <span class="label">Enter Minimum Temperature</span>
-    <br>
-    <input type="number" value="temperature">
-    <br><br>
-    <form action="/predict">
+    <form action="/predict" method="post">
+        <input type="number" name="min_temperature">
+        <br>
         <button type="submit" class="button">Predict</button>
     </form>
     <br>
