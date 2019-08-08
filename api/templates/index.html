@@ -9,13 +9,13 @@
     <h4 style="text-align: center; font-size: 30px">Temperature API</h4>
     <span class="label">Enter Minimum Temperature</span>
     <form action="/" method="post">
-        <input type="number" name="min_temperature">
+        <input type="number" name="min_temperature" placeholder="{{ feature }}">
         <br>
         <button type="submit" class="button">Predict</button>
     </form>
     <br>
     <br>
     <br>
-    <label>Predicted maximum temperature:_____ </label>
+    <label>Predicted maximum temperature: {{ prediction }} </label>
 </body>
 </html>
