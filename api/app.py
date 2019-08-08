@@ -22,10 +22,11 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/predict', methods=['post', 'get'])
+@app.route('/', methods=['post', 'get'])
 def predict():
     min_temperature = request.form.get('min_temperature')
     data = np.array(int(min_temperature))
+    predict
     return 'The model prediction is {:.2f}'.format(model_prediction(data).flatten()[0])
 
 
