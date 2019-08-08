@@ -27,7 +27,8 @@ def predict():
     min_temperature = request.form.get('min_temperature')
     data = np.array(int(min_temperature))
     prediction = model_prediction(data).flatten()[0]
-    return render_template('index.html', feature=data, prediction=round(prediction, 2))
+    output = 'The predicted maximum temperature is {:.2f}'.format(prediction)
+    return render_template('index.html', feature=data, prediction=output)
 
 
 if __name__ == '__main__':
