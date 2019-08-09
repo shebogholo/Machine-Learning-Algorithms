@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80c1d548-c265-4b23-829a-b07c8a8038ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="80c1d548-c265-4b23-829a-b07c8a8038ac" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565187917426</updated>
       <workItem from="1565187927845" duration="7768000" />
-      <workItem from="1565214941675" duration="9957000" />
+      <workItem from="1565214941675" duration="10142000" />
     </task>
     <task id="LOCAL-00001" summary="added flask">
       <created>1565209597963</created>
@@ -217,7 +215,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17725000" />
+    <option name="totallyTimeSpent" value="17910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="27" width="641" height="738" extended-state="0" />
